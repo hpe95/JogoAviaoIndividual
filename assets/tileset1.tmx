@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="15" tilewidth="32" tileheight="32" nextobjectid="9">
+ <properties>
+  <property name="Shooter1" value="assets/enemy1.png"/>
+  <property name="Shooter2" value="assets/shooter2.png"/>
+  <property name="helicopter" value="assets/helicopter.png"/>
+ </properties>
+ <tileset firstgid="1" name="tileset1" tilewidth="32" tileheight="32" spacing="2" margin="2" tilecount="198">
+  <image source="blocks1.png" width="614" height="376"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztyskJACAQBMENwzP/NJ0oBKUK+tdVAADc0FJPI8200n7wA/5xADn/Axw=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="1" name="Helicopter1" type="Player" x="255.545" y="115.152" width="102.03" height="56.5455">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="55"/>
+    <property name="textureID" value="helicopter"/>
+    <property name="textureWidth" value="128"/>
+   </properties>
+  </object>
+  <object id="3" name="EnemyShooter1" type="EnemyShooter1" x="713.688" y="49" width="59.3115" height="30.2735">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="55"/>
+    <property name="textureID" value="helicopter"/>
+    <property name="textureWidth" value="128"/>
+   </properties>
+  </object>
+  <object id="8" name="EnemyShooter1" type="EnemyShooter1" x="720.344" y="232.863" width="59.3115" height="30.2735">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="55"/>
+    <property name="textureID" value="helicopter"/>
+    <property name="textureWidth" value="128"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
