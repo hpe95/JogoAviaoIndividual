@@ -1,4 +1,4 @@
-# RGBender
+# Jogo Aviaozinho
 
 ## Tutorial para executar o jogo
 
@@ -11,72 +11,25 @@
 
 ## Resumo
 
-Protagonista viaja no tempo após pichar um símbolo e vai parar na renascença. Ele decide entrar para à história do mundo da arte como um grande pichador.
-
+O jogo é o player controlar um aviao e tentar matar o inimigo antes que ele mate você.
 ## Gameplay
 
-Teclado: WASD + MOUSE + 1 2 3
+Teclado: UP,DOWN,LEFT, RIGHT
 
 Controle: À Definir
 
-## Poderes
+## Gameplay
 
-O personagem ataca utilizando de tintas, essas que podem ser combinadas como mostradas na figura abaixo:
-
-![Combinação de cores](http://i.imgur.com/DgjUGaQ.png)
-
-## Cenário
-
-Itália Renascentista + Pós-Moderno 
+Teclado: 
+UP - Voa para cima
+DOWN - Voa para baixo
+LEFT - Voa para trás
+RIGHT - Voa para frente
 
 
-## Organização de elementos do jogo
+## Detalhes da Batalha
 
-Vida estilo Zelda (corações)
-
-Área comum: sala de treinamento, mapa simples de navegação entre boss e cutscenes; há um training dummy para testar habilidades
-
-## Bosses
-
-### 1º Boss: Xuxa Freira
-
-Mecânicas:
-
-	Survival DPS Range
-
-	Padronizada
-
-	100% de vida = Cantoria, canta e crianças em correm em volta dela, servindo como escudo, fica invencível. Quando termina de cantar, à “nuvem” de criança dispersa
-
-	50% de vida = Senta lá Claudia, começa a jogar os bancos da paróquia no jogador
-
-	25% de vida = enrage, berserk, joga criança no jogador
-
-Ao morrer, dropa a tinta azul
-
-### 2º Boss:  Davi, Estátua de Michelangelo, O cara mais bonito da cidade
-
-Mecânicas:
-
-	Lento
-
-	100%: Pular + ataque = area de dano, se cura (pode ser interrompido)
-
-	50%: Disassemble e ganha alcance (arranca um braço para bater em você)
-
-	25%: Enrage (braço bumerangue)
-
-Ao morrer dropa a tinta vermelha
-
-### 3º Boss: Seu rival do futuro
-
-Detalhes da batalha:
-
-	Batalha no topo de um prédio
-
-	Quebra 4ª parede (desliga tela, picha tela, picha mais rápido, etc.)
-
-	Poder igual ao jogador, porém + refinado
+O jogador vence quando consegue atingir 5 tiros no inimigo, logo acumulando 50 de score. O jogador morre rapidamente se entrar em contato com o laser do avião do inimigo.
 
 
 
